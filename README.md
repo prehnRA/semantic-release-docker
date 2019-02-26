@@ -29,7 +29,8 @@ Set of [semantic-release](https://github.com/semantic-release/semantic-release) 
 
 Your credentials have to be configured with the environment variables `DOCKER_USERNAME` and `DOCKER_PASSWORD`. If you are using a private docker registry, set its URL in the environment variable `DOCKER_REGISTRY`.
 
-In addition, you need to specify the name of the image as the `name` setting.
+In addition, you need to specify the name of the image as the `name` setting. If you need to specify a custom docker
+registry URL, add it as the `registryURL` setting.
 
 ## Plugins
 
